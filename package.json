@@ -1,7 +1,9 @@
 {
-  "name": "custom-protocol-check",
-  "version": "1.0.4",
-  "description": "Detect whether a custom protocol is available in browser (Chrome, Firefox, Safari, iOS, IE8-IE11 and Edge)",
+  "name": "@krzyhan/custom-protocol-check",
+  "displayName": "Custom Protocol Check",
+  "slug": "custom-protocol-check",
+  "version": "1.0.0",
+  "description": "Detect whether a custom protocol is available in browser (Chrome, Firefox, Safari, iOS, IE8-IE11 and Edge). Fork from ",
   "main": "index.js",
   "scripts": {
     "build": "webpack --env dev && webpack --env build",
@@ -11,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vireshshah/custom-protocol-check.git"
+    "url": "git+https://github.com/krzyhan/custom-protocol-check.git"
   },
   "keywords": [
     "custom protocol check",
@@ -36,13 +38,18 @@
       "name": "Viresh Shah",
       "email": "vireshshah@gmail.com",
       "url": "https://github.com/vireshshah"
+    },
+    {
+      "name": "krzyhan",
+      "email": "krzyhanweb@gmail.com",
+      "url": "https://github.com/krzyhan"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vireshshah/custom-protocol-check/issues"
+    "url": "https://github.com/krzyhan/custom-protocol-check/issues"
   },
-  "homepage": "https://github.com/vireshshah/custom-protocol-check#readme",
+  "homepage": "https://github.com/krzyhan/custom-protocol-check#readme",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-proposal-class-properties": "^7.8.0",

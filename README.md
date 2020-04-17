@@ -1,6 +1,6 @@
 # Custom Protocol Check in Browser
 
-[![Build Status](https://travis-ci.org/vireshshah/custom-protocol-check.svg?branch=master)](https://travis-ci.org/vireshshah/custom-protocol-check)[![Dependency Status](https://david-dm.org/vireshshah/custom-protocol-check.svg)](https://david-dm.org/vireshshah/custom-protocol-check) [![NPM version](https://badge.fury.io/js/custom-protocol-check.svg)](http://badge.fury.io/js/custom-protocol-check) [![Pull requests](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://www.npmjs.com/package/robert) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/greeeg/robert/blob/master/LICENSE)
+[![npm version](https://badge.fury.io/js/%40krzyhan%2Fcustom-protocol-check.svg)](https://badge.fury.io/js/%40krzyhan%2Fcustom-protocol-check) [![Pull requests](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://www.npmjs.com/package/@krzyhan/custom-protocol-check) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/krzyhan/custom-protocol-check/blob/master/LICENSE)
 
 Detect whether a custom protocol is available in browser (Chrome, Firefox, Safari, iOS, IE8-IE11 and Edge)
 
@@ -17,15 +17,15 @@ _**Important feature:** If current tab is not active when it's trying to detect 
 # Examples
 
 ```js
-import customProtocolCheck from "custom-protocol-check";
+import customProtocolCheck from 'custom-protocol-check';
 
 customProtocolCheck(
-  "mycustomprotocol://params",
+  'mycustomprotocol://params',
   () => {
-    console.log("Custom protocol not found.");
+    console.log('Custom protocol not found.');
   },
   () => {
-    console.log("Custom protocol found and opened the file successfully.");
+    console.log('Custom protocol found and opened the file successfully.');
   }
 );
 ```
@@ -36,6 +36,6 @@ customProtocolCheck(
 
 # Special Thanks
 
-custom-protocol-check is forked from https://github.com/ismailhabib/custom-protocol-detection. Many thanks to Ismail Habib Muhammad.
+custom-protocol-check is forked from https://github.com/vireshshah/custom-protocol-check. Many thanks to Ismail Habib Muhammad and Viresh Shah
 
-##### Happy Coding! Viresh Shah (http://www.vireshshah.com)
+##### Happy Coding!
